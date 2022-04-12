@@ -1,0 +1,156 @@
+/*======== RESET ===========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*=========================*/
+
+body {
+    font-family: sans-serif;
+    background-image: url("https://media.istockphoto.com/photos/twinkling-star-field-overlay-texture-on-black-background-picture-id938050474?b=1&k=20&m=938050474&s=170667a&w=0&h=D2d9BnYsHXpkidikvqFi1-abDh7doWvatWEpUpzRNJU=")
+}
+
+.titulo {
+    text-align: center;
+    margin: 0 0 0 0;
+    font-size: 70px;
+    font-weight: bold;
+    color: orangered;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #ffc300 29%,
+    #ff5733 67%,
+    #c70039 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}
+
+.t {
+    color: orangered;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: solid;
+    color: darkred;
+}
+
+.container h3{
+  font-size: 25px;
+  margin: 0 0 0 0;
+}
+
+h3 .span loader{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+}
+
+.nav-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: whitesmoke;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 22px;
+}
+
+main {
+    font-family: sans-serif;
+    text-align: center;
+    justify-items: center;
+    margin: 100px 0;
+}
+
+#home h1{
+    font-size: 35px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    color: orangered;
+    margin: 20px 0;
+}
+
+#home p{
+  font-size: 25px;
+  color: white;
+  margin: 0 0 50px 0;
+}
+
+#about h1{
+  color: orangered;
+  font-size: 35px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  margin: 20px 0;
+}
+
+#about p{
+  font-size: 25px;
+  color: white;
+  margin: 0 0 50px 0;
+}
+
+#solutions h1{
+  color: orangered;
+  font-size: 35px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  margin: 20px 0;
+}
+
+#solutions p{
+  font-size: 25px;
+  color: white;
+  margin: 0 0 50px 0;
+}
+
+#contact h1{
+  color: orangered;
+  font-size: 35px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  margin: 20px 0;
+}
+
+#contact p{
+  font-size: 25px;
+  color: white;
+  margin: 0 0 50px 0;
+}
